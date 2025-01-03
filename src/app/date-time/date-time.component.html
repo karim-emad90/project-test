@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="inputsContainer">
+    <input
+      type="text"
+      #hoursInput
+      (click)="onInputClicked(hoursInput)"
+      name="hoursData"
+      [(ngModel)]="choosenHour"
+      (change)="onInputValueChanged()"
+    />
+
+    <input
+      type="text"
+      #minutesInput
+      (click)="onInputClicked(minutesInput)"
+      [(ngModel)]="choosenMinute"
+      name="minutes"
+      (onChange)="onInputValueChanged()"
+    />
+
+    <input
+      type="text"
+      #timeInput
+      (click)="onInputClicked(timeInput)"
+      name="time"
+      [(ngModel)]="choosenTime"
+      (onChange)="onInputValueChanged()"
+    />
+  </div>
+</div>

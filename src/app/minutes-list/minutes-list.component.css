@@ -1,0 +1,18 @@
+.minutesContainer {
+  width: 100px;
+  height: 200px;
+  overflow-y: scroll;
+  background-color: rgb(218, 217, 217);
+}
+
+.minutesContainer li {
+  list-style: none;
+  background-color: rgb(226, 223, 223);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.minutesContainer li:hover {
+  cursor: pointer;
+  color: navy;
+}

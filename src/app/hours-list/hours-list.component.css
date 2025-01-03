@@ -1,0 +1,18 @@
+.hoursContainer {
+  width: 100px;
+  height: 200px;
+  overflow-y: scroll;
+  background-color: rgb(218, 217, 217);
+}
+
+.hoursContainer li {
+  list-style: none;
+  background-color: rgb(226, 223, 223);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hoursContainer li:hover {
+  cursor: pointer;
+  color: navy;
+}
