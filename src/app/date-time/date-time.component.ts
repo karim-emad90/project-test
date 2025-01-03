@@ -5,8 +5,8 @@ import { Overlay, OverlayRef } from '@angular/cdk/overlay';
 import { MinutesListComponent } from '../minutes-list/minutes-list.component';
 import { HoursListComponent } from '../hours-list/hours-list.component';
 import { TimeListComponent } from '../time-list/time-list.component';
-import moment from 'moment';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
+import moment from 'moment';
 
 @Component({
   selector: 'app-date-time',
